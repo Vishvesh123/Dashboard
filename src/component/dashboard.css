@@ -1,0 +1,64 @@
+.Dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+  margin-top: 10vh;
+  height: 100vh;
+  margin-left: 166px;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.slide-menu {
+  margin-left: 320px;
+}
+.Dashboard .Upper {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.Dashboard .Upper .canvas {
+  width: 90%;
+  height: 35vh;
+}
+.Dashboard .Upper .Left-Side {
+  width: 47%;
+  height: 40vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f8ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Dashboard .Upper .Right-Side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 47%;
+  height: 40vh;
+  border-radius: 10px;
+  background-color: #f3f8ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Dashboard .Bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: #f3f8ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Dashboard .Bottom .canvas {
+  width: 90%;
+  height: 40vh;
+}

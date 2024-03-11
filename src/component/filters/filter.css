@@ -1,0 +1,73 @@
+.container-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 166px;
+  width: 78%;
+  height: 100vh;
+  transition: all 0.5s;
+}
+
+.slide-menu2 {
+  margin-left: 328px;
+}
+
+.Upper-Chart {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 40vh;
+  position: relative;
+  top: 9px;
+}
+.Upper-Chart .chart {
+  background-color: #f3f8ff;
+  width: 360px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.Upper-Chart .chart .charts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 54px;
+}
+.Upper-Chart .chart .charts h3 {
+  color: #ff407d;
+}
+
+.Lower-Chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 70px;
+  height: 350px;
+  position: relative;
+  bottom: 21px;
+}
+.Lower-Chart .chart1 {
+  height: 330px;
+  width: 570px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f8ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Lower-Chart .chart2 {
+  height: 330px;
+  width: 570px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f8ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

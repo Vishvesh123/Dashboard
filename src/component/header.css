@@ -1,0 +1,32 @@
+.Header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: #f3f8ff;
+  color: #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Header .Filter {
+  width: 14%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  right: 150px;
+}
+.Header .Filter .fa-solid:hover {
+  color: red;
+  cursor: pointer;
+}
+.Header .Head {
+  width: 42%;
+  display: flex;
+  justify-content: flex-end;
+}
+.Header .Head h1:hover {
+  cursor: pointer;
+}
